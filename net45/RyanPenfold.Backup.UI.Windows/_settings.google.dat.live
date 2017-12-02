@@ -1,0 +1,89 @@
+{
+  "AutoClose": false,
+  "Paths": [
+    {
+      "Id": "00000000-0000-0000-0000-000000000001",
+      "Source": "D:\\Users\\Ryan\\Documents\\MSc Advanced Software Engineering",
+      "Destination": "D:\\Users\\Ryan\\Google Drive\\MSc Advanced Software Engineering",
+      "Enabled": true,
+      "BackupMode": 2
+    },
+    {
+      "Id": "00000000-0000-0000-0000-000000000002",
+      "Source": "D:\\Users\\Ryan\\Projects\\RyanPenfold.Backup",
+      "Destination": "D:\\Users\\Ryan\\Google Drive\\Projects\\RyanPenfold.Backup",
+      "Enabled": true,
+      "BackupMode": 2
+    },
+    {
+      "Id": "00000000-0000-0000-0000-000000000002",
+      "Source": "D:\\Users\\Ryan\\Projects\\RyanPenfold.BusinessBase.Infrastructure",
+      "Destination": "D:\\Users\\Ryan\\Google Drive\\Projects\\RyanPenfold.BusinessBase.Infrastructure",
+      "Enabled": true,
+      "BackupMode": 2
+    },
+    {
+      "Id": "00000000-0000-0000-0000-000000000002",
+      "Source": "D:\\Users\\Ryan\\Projects\\RyanPenfold.Foundation",
+      "Destination": "D:\\Users\\Ryan\\Google Drive\\Projects\\RyanPenfold.Foundation",
+      "Enabled": true,
+      "BackupMode": 2
+    },
+    {
+      "Id": "00000000-0000-0000-0000-000000000002",
+      "Source": "D:\\Users\\Ryan\\Projects\\RyanPenfold.IocContainer",
+      "Destination": "D:\\Users\\Ryan\\Google Drive\\Projects\\RyanPenfold.IocContainer",
+      "Enabled": true,
+      "BackupMode": 2
+    },
+    {
+      "Id": "00000000-0000-0000-0000-000000000002",
+      "Source": "D:\\Users\\Ryan\\Projects\\RyanPenfold.NHibernateRepository",
+      "Destination": "D:\\Users\\Ryan\\Google Drive\\Projects\\RyanPenfold.NHibernateRepository",
+      "Enabled": true,
+      "BackupMode": 2
+    },
+    {
+      "Id": "00000000-0000-0000-0000-000000000002",
+      "Source": "D:\\Users\\Ryan\\Projects\\RyanPenfold.Utilities",
+      "Destination": "D:\\Users\\Ryan\\Google Drive\\Projects\\RyanPenfold.Utilities",
+      "Enabled": true,
+      "BackupMode": 2
+    },
+    {
+      "Id": "00000000-0000-0000-0000-000000000002",
+      "Source": "D:\\Users\\Ryan\\Projects\\UIS.Pool",
+      "Destination": "D:\\Users\\Ryan\\Google Drive\\Projects\\UIS.Pool",
+      "Enabled": true,
+      "BackupMode": 2
+    },
+    {
+      "Id": "00000000-0000-0000-0000-000000000002",
+      "Source": "D:\\Users\\Ryan\\Projects\\UIS.SpecialistClaims",
+      "Destination": "D:\\Users\\Ryan\\Google Drive\\Projects\\UIS.SpecialistClaims",
+      "Enabled": true,
+      "BackupMode": 2
+    },
+    {
+      "Id": "00000000-0000-0000-0000-000000000002",
+      "Source": "D:\\Users\\Ryan\\Documents\\SQL Server Management Studio\\Projects\\Utilities",
+      "Destination": "D:\\Users\\Ryan\\Google Drive\\SQL",
+      "Enabled": true,
+      "BackupMode": 2
+    },
+    {
+      "Id": "00000000-0000-0000-0000-000000000002",
+      "Source": "D:\\Users\\Ryan\\Documents\\Torrents",
+      "Destination": "D:\\Users\\Ryan\\Google Drive\\Torrents",
+      "Enabled": true,
+      "BackupMode": 2
+    },
+    {
+      "Id": "00000000-0000-0000-0000-000000000002",
+      "Source": "D:\\Users\\Ryan\\workspace",
+      "Destination": "D:\\Users\\Ryan\\Google Drive\\workspace",
+      "Enabled": true,
+      "BackupMode": 2
+    }
+  ]
+}

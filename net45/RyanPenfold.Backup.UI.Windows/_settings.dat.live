@@ -1,0 +1,65 @@
+{
+  "AutoClose": false,
+  "Paths": [
+    {
+      "Id": "00000000-0000-0000-0000-000000000001",
+      "Source": "C:\\Users\\Ryan\\AppData\\Roaming\\Microsoft\\Templates",
+      "Destination": "F:\\Users\\Ryan\\AppData\\Roaming\\Microsoft\\Templates",
+      "BackupMode": 2
+    },
+    {
+      "Id": "00000000-0000-0000-0000-000000000002",
+      "Source": "D:\\Users\\Ryan\\Contacts",
+      "Destination": "F:\\Users\\Ryan\\Contacts",
+      "BackupMode": 2
+    },
+    {
+      "Id": "00000000-0000-0000-0000-000000000003",
+      "Source": "D:\\Users\\Ryan\\Documents",
+      "Destination": "F:\\Users\\Ryan\\Documents",
+      "BackupMode": 1
+    },
+    {
+      "Id": "00000000-0000-0000-0000-000000000004",
+      "Source": "D:\\Users\\Ryan\\Favorites",
+      "Destination": "F:\\Users\\Ryan\\Favorites",
+      "BackupMode": 2
+    },
+    {
+      "Id": "00000000-0000-0000-0000-000000000005",
+      "Source": "D:\\Users\\Ryan\\Google Drive",
+      "Destination": "F:\\Users\\Ryan\\Google Drive",
+      "BackupMode": 2
+    },
+    {
+      "Id": "00000000-0000-0000-0000-000000000006",
+      "Source": "D:\\Users\\Ryan\\Music",
+      "Destination": "F:\\Users\\Ryan\\Music",
+      "BackupMode": 1
+    },
+    {
+      "Id": "00000000-0000-0000-0000-000000000007",
+      "Source": "D:\\Users\\Ryan\\Pictures",
+      "Destination": "F:\\Users\\Ryan\\Pictures",
+      "BackupMode": 2
+    },
+    {
+      "Id": "00000000-0000-0000-0000-000000000008",
+      "Source": "D:\\Users\\Ryan\\Projects",
+      "Destination": "F:\\Users\\Ryan\\Projects",
+      "BackupMode": 2
+    },
+    {
+      "Id": "00000000-0000-0000-0000-000000000009",
+      "Source": "D:\\Users\\Ryan\\Saved Games",
+      "Destination": "F:\\Users\\Ryan\\Saved Games",
+      "BackupMode": 2
+    },
+    {
+      "Id": "00000000-0000-0000-0000-00000000000A",
+      "Source": "D:\\Users\\Ryan\\Videos",
+      "Destination": "F:\\Users\\Ryan\\Videos",
+      "BackupMode": 2
+    }
+  ]
+}

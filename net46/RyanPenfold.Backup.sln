@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RyanPenfold.Backup.UI.Windows", "RyanPenfold.Backup.UI.Windows\RyanPenfold.Backup.UI.Windows.csproj", "{CC0959AF-7219-4563-968C-11DD189734C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RyanPenfold.Utilities", "..\..\utilities\net46\RyanPenfold.Utilities\RyanPenfold.Utilities.csproj", "{6B248F86-CC97-49F6-96F2-9200707544A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC0959AF-7219-4563-968C-11DD189734C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC0959AF-7219-4563-968C-11DD189734C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC0959AF-7219-4563-968C-11DD189734C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC0959AF-7219-4563-968C-11DD189734C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B248F86-CC97-49F6-96F2-9200707544A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B248F86-CC97-49F6-96F2-9200707544A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B248F86-CC97-49F6-96F2-9200707544A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B248F86-CC97-49F6-96F2-9200707544A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://ryanpenfold.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = RyanPenfold.Backup.UI.Windows\\RyanPenfold.Backup.UI.Windows.csproj
+		SccProjectName1 = RyanPenfold.Backup.UI.Windows
+		SccLocalPath1 = RyanPenfold.Backup.UI.Windows
+		SccProjectUniqueName2 = ..\\..\\RyanPenfold.Utilities\\RyanPenfold.Utilities\\RyanPenfold.Utilities\\RyanPenfold.Utilities.csproj
+		SccProjectName2 = ../../RyanPenfold.Utilities/RyanPenfold.Utilities/RyanPenfold.Utilities
+		SccLocalPath2 = ..\\..\\RyanPenfold.Utilities\\RyanPenfold.Utilities\\RyanPenfold.Utilities
+	EndGlobalSection
+EndGlobal

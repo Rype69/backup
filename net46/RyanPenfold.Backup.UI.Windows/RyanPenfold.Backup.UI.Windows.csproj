@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CC0959AF-7219-4563-968C-11DD189734C0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RyanPenfold.Backup.UI.Windows</RootNamespace>
+    <AssemblyName>RyanPenfold.Backup.UI.Windows</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>R.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.8.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\net45\RyanPenfold.Backup.UI.Windows\BackupMode.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.Backup.UI.Windows\CopyEngine.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.Backup.UI.Windows\ICopyEngine.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.Backup.UI.Windows\ILogger.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.Backup.UI.Windows\ILoggingBackgroundWorker.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.Backup.UI.Windows\ISetting.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.Backup.UI.Windows\ISettingsFile.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.Backup.UI.Windows\Logger.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.Backup.UI.Windows\LoggingBackgroundWorker.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="..\..\net45\RyanPenfold.Backup.UI.Windows\LoggingEventArgs.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.Backup.UI.Windows\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="..\..\net45\RyanPenfold.Backup.UI.Windows\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="..\..\net45\RyanPenfold.Backup.UI.Windows\NativeMethods.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.Backup.UI.Windows\Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.Backup.UI.Windows\RichTextBoxExtensions.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.Backup.UI.Windows\Setting.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.Backup.UI.Windows\SettingsInfo.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.Backup.UI.Windows\SettingsFile.cs" />
+    <EmbeddedResource Include="..\..\net45\RyanPenfold.Backup.UI.Windows\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\net45\RyanPenfold.Backup.UI.Windows\Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="..\..\net45\RyanPenfold.Backup.UI.Windows\Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="..\..\net45\RyanPenfold.Backup.UI.Windows\packages.config" />
+    <None Include="..\..\net45\RyanPenfold.Backup.UI.Windows\Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="..\..\net45\RyanPenfold.Backup.UI.Windows\Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="..\..\net45\RyanPenfold.Backup.UI.Windows\_settings.google.dat.live" />
+    <None Include="..\..\net45\RyanPenfold.Backup.UI.Windows\_settings.dat.live" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\net45\RyanPenfold.Backup.UI.Windows\App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\..\net45\RyanPenfold.Backup.UI.Windows\R.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\utilities\net46\RyanPenfold.Utilities\RyanPenfold.Utilities.csproj">
+      <Project>{6b248f86-cc97-49f6-96f2-9200707544a4}</Project>
+      <Name>RyanPenfold.Utilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
